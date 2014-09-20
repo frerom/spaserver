@@ -1,6 +1,6 @@
 {
   "name": "spaserver",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A static server for single page apps",
   "bin": {
     "spaserver": "spaserver.js"
