@@ -1,0 +1,21 @@
+{
+  "name": "spaserver",
+  "version": "0.0.0",
+  "description": "A static server for single page apps",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "static",
+    "server",
+    "single",
+    "page",
+    "app"
+  ],
+  "author": "Fredrik Román",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "minimist": "~1.1.0"
+  }
+}
