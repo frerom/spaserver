@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 var args = require('minimist')(process.argv.slice(2), {
       default: { port: 4040, default: 'index.html' },
       alias: { port: ['p'], default: ['d'], help: ['h'] },
