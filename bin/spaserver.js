@@ -35,6 +35,7 @@ if (!fs.existsSync(defaultFile)) {
 http.createServer(function (req, res) {
   var uri = url.parse(req.url).pathname;
   var filename = path.join(home, uri);
+  console.log('Trying to get ', filename);
   fs.stat(filename, function(err, stat) {
     if (err || !stat.isFile()) {
       filename = defaultFile;    
